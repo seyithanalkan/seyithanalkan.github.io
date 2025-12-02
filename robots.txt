@@ -1,1 +1,4 @@
-sitemap: https://seyithanalkan.github.io/seyithanalkan/sitemap.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://seyithanalkan.github.io/sitemap.xml
