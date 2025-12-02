@@ -43,7 +43,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
       max-width: 900px;
       margin: 40px auto;
-      padding: 0 16px;
+      padding: 0 16px 80px;
       line-height: 1.6;
     }
     h1, h2, h3 {
@@ -52,10 +52,20 @@
     .center {
       text-align: center;
     }
+    a {
+      color: #1a0dab;
+    }
     .badge-row img {
       vertical-align: middle;
-      margin-right: 8px;
-      margin-bottom: 8px;
+      margin: 6px;
+    }
+    section {
+      margin-top: 32px;
+    }
+    hr {
+      margin: 32px 0;
+      border: 0;
+      border-top: 1px solid #eee;
     }
   </style>
 </head>
@@ -69,75 +79,101 @@
     </p>
   </header>
 
+  <hr>
+
+  <!-- FEATURED PROJECTS -->
   <section>
-    <h2>Featured Projects</h2>
-    <ul>
+    <h2>🔭 Featured Projects</h2>
+    <ol>
       <li>
-        🔭 I’m currently working on
-        <a href="https://github.com/seyithanalkan/ci-cd-automation">Project 1: End-to-End CI/CD</a>
-        and
-        <a href="https://github.com/seyithanalkan/kubernetes-automation">Project 2: Kubernetes Automation</a>.
-      </li>
-      <li>💬 Ask me about <strong>CI/CD, Docker, AWS</strong>.</li>
-      <li>
-        📫 How to reach me:
-        <strong><a href="mailto:seyithanalkan@gmail.com">seyithanalkan@gmail.com</a></strong>
+        <strong><a href="https://github.com/seyithanalkan/mlops-project">MLOps Retail Forecast Pipeline</a></strong><br>
+        End-to-end ML pipeline on AWS ECS: data generation, feature engineering, model training, and FastAPI serving via Fargate.
       </li>
       <li>
-        📄 Know about my experiences:
-        <a href="https://drive.google.com/file/d/1QUF2hs9gfltYJTsp1zerqDgL0v__C9nN/view?usp=sharing">
-          Seyit Han Alkan CV (PDF)
-        </a>
+        <strong><a href="https://github.com/seyithanalkan/kubernetes-automation">Kubernetes Automation</a></strong><br>
+        Pulumi &amp; Helm CI for provisioning EKS, packaging &amp; pushing React Helm charts to ECR, and deploying via ArgoCD.
       </li>
-    </ul>
+      <li>
+        <strong><a href="https://github.com/seyithanalkan/ci-cd-automation">CI/CD Automation</a></strong><br>
+        End-to-end CI/CD with Terraform-provisioned Jenkins, Docker image builds, and React deployments to Elastic Beanstalk.
+      </li>
+      <li>
+        <strong><a href="https://github.com/seyithanalkan/ec2-blue-green">EC2 Blue/Green Deployments</a></strong><br>
+        Blue/green release strategy on EC2 using AWS CLI, ALB Listener, Target Groups and PowerShell.
+      </li>
+      <li>
+        <strong><a href="https://github.com/seyithanalkan/aws-fargate-automation">AWS Fargate Deployment Automation</a></strong><br>
+        Terraform-provisioned network + GitHub Actions/CloudFormation for ECS on Fargate with Nginx support.
+      </li>
+      <li>
+        <strong><a href="https://github.com/seyithanalkan/apigw-lambda-ec2">API Gateway + Lambda + EC2</a></strong><br>
+        Serverless API Gateway triggers a Lambda that spins up an Nginx EC2 instance via Terraform.
+      </li>
+      <li>
+        <strong><a href="https://github.com/seyithanalkan/aws_cost_report">AWS Cost Report</a></strong><br>
+        Automated cost reporting and budgeting with AWS Cost Explorer APIs.
+      </li>
+    </ol>
   </section>
 
+  <hr>
+
+  <!-- CV -->
   <section>
-    <h2>Connect with me</h2>
+    <h2>💼 My CV</h2>
     <p>
-      <a href="https://linkedin.com/in/seyithanalkan" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-             alt="LinkedIn - Seyit Han Alkan" height="30" width="40">
+      📄
+      <a href="https://drive.google.com/file/d/1QUF2hs9gfltYJTsp1zerqDgL0v__C9nN/view?usp=sharing">
+        Seyit Han Alkan CV (PDF)
       </a>
     </p>
   </section>
 
+  <hr>
+
+  <!-- ASK ME ABOUT -->
   <section>
-    <h2>Languages &amp; Tools</h2>
+    <h2>💬 Ask Me About</h2>
+    <ul>
+      <li>CI/CD pipelines (GitHub Actions, GitLab CI)</li>
+      <li>Containers &amp; Orchestration (Docker, Kubernetes)</li>
+      <li>AWS Services &amp; Automation</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>📫 Contact</h2>
+    <ul>
+      <li>🌐 <a href="https://seyithanalkan.com">seyithanalkan.com</a> (portfolio domain)</li>
+      <li>✉️ <a href="mailto:seyithanalkan@gmail.com">seyithanalkan@gmail.com</a></li>
+      <li>🔗 <a href="https://linkedin.com/in/seyithanalkan">LinkedIn</a></li>
+      <li>🐙 <a href="https://github.com/seyithanalkan">GitHub Profile</a></li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- LANGUAGES & TOOLS -->
+  <section>
+    <h2>🛠️ Technologies &amp; Tools</h2>
     <p class="badge-row">
-      <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40">
-      </a>
-      <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash" width="40" height="40">
-      </a>
-      <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40">
-      </a>
-      <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40">
-      </a>
-      <a href="https://www.jenkins.io" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="Jenkins" width="40" height="40">
-      </a>
-      <a href="https://kubernetes.io" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="40" height="40">
-      </a>
-      <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40">
-      </a>
-      <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="40" height="40">
-      </a>
-      <a href="https://www.python.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
-      </a>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" alt="Kubernetes" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="Terraform" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="Bash" width="36" height="36">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="36" height="36">
     </p>
   </section>
 
   <section class="center">
     <p>
-      <img src="https://github-readme-stats.vercel.app/api?username=seyithanalkan&show_icons=true&locale=en"
+      <img src="https://github-readme-stats.vercel.app/api?username=seyithanalkan&show_icons=true&theme=radical"
            alt="GitHub stats for seyithanalkan">
     </p>
   </section>
