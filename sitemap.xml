@@ -4,41 +4,7 @@
   <url>
     <loc>https://seyithanalkan.github.io/</loc>
     <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/mlops-project</loc>
-    <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/kubernetes-automation</loc>
-    <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/ci-cd-automation</loc>
-    <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/ec2-blue-green</loc>
-    <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/aws-fargate-automation</loc>
-    <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/apigw-lambda-ec2</loc>
-    <lastmod>2025-01-01</lastmod>
-  </url>
-
-  <url>
-    <loc>https://github.com/seyithanalkan/aws_cost_report</loc>
-    <lastmod>2025-01-01</lastmod>
+    <priority>1.0</priority>
   </url>
 
 </urlset>
